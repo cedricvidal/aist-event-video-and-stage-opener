@@ -1,0 +1,16 @@
+{
+  "name": "aist-event-video-and-stage-opener",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Render animated promo videos for AI Show & Tell events (HTML/GSAP -> Playwright -> ffmpeg)",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "gsap": "^3.15.0",
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "slug": "ai-show-and-tell-2026-09-28-sf-stage",
+  "title_lines": [
+    "Agents on a Leash.",
+    "Products on Trial."
+  ],
+  "series": "AI Show & Tell",
+  "city": "San Francisco",
+  "date_long": "Monday, Sept 28",
+  "date_short": "Mon · Sept 28",
+  "time": "Doors 6 PM",
+  "venue": "GitHub HQ",
+  "address": "88 Colin P Kelly Jr St, SF",
+  "extras": [
+    "Panel + Q&A",
+    "Snacks & drinks",
+    "Networking"
+  ],
+  "cover": "../step-1-promo/assets/cover.webp",
+  "brand_next": "Meet your hosts →",
+  "open": {
+    "lines": [
+      {
+        "prompt": "$",
+        "text": "agent run --task \"ship it to prod\""
+      },
+      {
+        "prompt": ">",
+        "text": "requesting scope: prod_db.* (write, delete)"
+      },
+      {
+        "prompt": ">",
+        "text": "verdict pending..."
+      }
+    ],
+    "stamp": "ACCESS DENIED"
+  },
+  "hosts": [
+    {
+      "name": "Cedric Vidal",
+      "role": "Principal AI Advocate",
+      "company": "Microsoft",
+      "photo": "../step-1-promo/assets/cedric-vidal.jpeg",
+      "label": "Host · Speaker"
+    },
+    {
+      "name": "Pamela Fox",
+      "role": "Principal Cloud Advocate",
+      "company": "Microsoft/GitHub",
+      "photo": "../step-2-host/assets/pamela-fox.jpg",
+      "label": "Host · Panel moderator"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Satya Devarakonda",
+      "role": "Co-Founder & CEO",
+      "company": "Scalekit",
+      "photo": "../step-1-promo/assets/satya-devarakonda.png",
+      "label": "Talk",
+      "talk": "Who Gave the Agent the Keys?",
+      "hook": "Give agents user-level permissions and let them act on your behalf, without handing over the whole kingdom.",
+      "motif": {
+        "type": "log",
+        "lines": [
+          {
+            "verb": "grant",
+            "what": "calendar.read",
+            "meta": "scope:user",
+            "ok": true
+          },
+          {
+            "verb": "grant",
+            "what": "crm.write",
+            "meta": "ttl:15m",
+            "ok": true
+          },
+          {
+            "verb": "refresh",
+            "what": "token #42",
+            "meta": "rotated",
+            "ok": true
+          },
+          {
+            "verb": "deny",
+            "what": "prod_db.drop",
+            "meta": "out of scope",
+            "ok": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Isaac Miller",
+      "role": "Lead Maintainer of DSPy · Co-founder",
+      "company": "cmpnd",
+      "photo": "../step-1-promo/assets/isaac-miller.png",
+      "label": "Talk",
+      "talk": "Fire Your Prompts: DSPy + Jev Hit a New Cost/Latency Frontier",
+      "hook": "Stop hand-tuning prompts. Optimize instructions and code with DSPy + GEPA, live.",
+      "motif": {
+        "type": "frontier",
+        "struck": "prompt_v37_FINAL_final2.txt",
+        "code": "dspy.GEPA().compile(program)",
+        "label": "new frontier",
+        "stat": "6M+ monthly downloads"
+      }
+    },
+    {
+      "name": "Mathis Joffre",
+      "role": "Co-founder & Engineering Lead",
+      "company": "Blaxel",
+      "photo": "../step-1-promo/assets/mathis-joffre.jpeg",
+      "label": "Talk teaser",
+      "talk": "Where do agents live when no one is watching?",
+      "hook": "Blaxel builds perpetual sandboxes: microVMs for agents that sleep at zero cost and wake up in milliseconds.",
+      "motif": {
+        "type": "vms",
+        "count": 12,
+        "stat": "~25 ms",
+        "stat_label": "resume from standby"
+      }
+    },
+    {
+      "name": "Cedric Vidal",
+      "role": "Principal AI Advocate",
+      "company": "Microsoft",
+      "photo": "../step-1-promo/assets/cedric-vidal.jpeg",
+      "label": "Talk",
+      "talk": "Your Product Was Built for Humans. Is It Ready for Agents?",
+      "hook": "Meet Scope: run one task across every coding agent and see exactly where your product trips them up.",
+      "motif": {
+        "type": "scope",
+        "agents": [
+          "Copilot",
+          "Claude Code",
+          "VS Code"
+        ],
+        "rows": [
+          {
+            "label": "Found the docs",
+            "marks": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "label": "Installed the SDK",
+            "marks": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "label": "Auth, first try",
+            "marks": [
+              0,
+              0,
+              0
+            ],
+            "gap": true
+          }
+        ],
+        "stamp": "Product gap",
+        "verdict": "Same step, every agent →",
+        "verdict_strong": "fix the product."
+      }
+    }
+  ],
+  "sponsors": {
+    "title": "Thank you to our sponsors",
+    "logos": [
+      "../step-1-promo/assets/global-ai-logo.png",
+      "assets/github-logo.svg",
+      "assets/microsoft-logo.svg"
+    ],
+    "outro": "Let the show begin.",
+    "qr": {
+      "image": "assets/globalai-qr.svg",
+      "caption": "globalai.community"
+    }
+  },
+  "timing": {
+    "bpm": 120,
+    "fps": 30,
+    "duration": 52,
+    "scenes": [
+      {
+        "id": "open",
+        "start": 0,
+        "dur": 4
+      },
+      {
+        "id": "title",
+        "start": 4,
+        "dur": 4
+      },
+      {
+        "id": "brand",
+        "start": 8,
+        "dur": 4
+      },
+      {
+        "id": "hosts",
+        "start": 12,
+        "dur": 6
+      },
+      {
+        "id": "speaker-0",
+        "start": 18,
+        "dur": 6
+      },
+      {
+        "id": "speaker-1",
+        "start": 24,
+        "dur": 6
+      },
+      {
+        "id": "speaker-2",
+        "start": 30,
+        "dur": 6
+      },
+      {
+        "id": "speaker-3",
+        "start": 36,
+        "dur": 6
+      },
+      {
+        "id": "lineup",
+        "start": 42,
+        "dur": 4
+      },
+      {
+        "id": "sponsors",
+        "start": 46,
+        "dur": 6
+      }
+    ],
+    "cues": {
+      "denied": 2.6,
+      "slam1": 4.0,
+      "gavel": 6.0,
+      "drop": 8.0,
+      "wipes": [
+        12,
+        18,
+        24,
+        30,
+        36,
+        42
+      ],
+      "gap": 40.0,
+      "riser_to": 46,
+      "final_hit": 46,
+      "end_hit": 50,
+      "groove_extra": [
+        [
+          12,
+          18
+        ]
+      ],
+      "sponsor_hits": [
+        47.0,
+        47.5,
+        48.0
+      ]
+    }
+  },
+  "poster_time": 51
+}
